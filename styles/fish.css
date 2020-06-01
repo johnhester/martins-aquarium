@@ -2,12 +2,12 @@
     display: flex;
     background-color: mediumorchid;
     background-image:url('https://pixabay.com/get/54e3dd475753a50bf7c58d75cf2e367d1d22dfe05a50714d742e7bd3_1920.jpg');
-    flex-flow: row;
+    flex-flow: row wrap;
     flex: 2;
 }
 
 .fish {
-    background-color: mediumvioletred;
+    background-color: rgb(67, 30, 136);
     padding: .5rem;
     margin: .5rem;
     width: 20%;

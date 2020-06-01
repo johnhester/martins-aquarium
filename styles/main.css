@@ -4,7 +4,9 @@
 @import "quotes.css";
 @import "banner.css";
 
-
+body {
+    background-color:oldlace;
+}
 .container {
     display: flex;
     flex-direction: column;
