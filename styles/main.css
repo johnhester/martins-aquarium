@@ -1,3 +1,2 @@
-@import "fish.css"
-@import "locations.css"
-
+@import "fish.css";
+@import url("locations.css");
