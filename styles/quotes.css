@@ -1,7 +1,16 @@
 .quoteList {
     background-color: lightyellow;
+    background-image: url('https://pixabay.com/get/55e1dd464a54ad14f6d1867dda213f76133edded4e507440742f7fd49e45cc_1920.jpg');
+    flex: 1;
+    display: flex;
+    flex-flow: wrap;
 }
 
 .quote {
     background-color: yellow;
+    padding: 1rem;
+    margin: .5rem;
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid darkgoldenrod;
 }

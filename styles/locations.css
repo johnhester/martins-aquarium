@@ -1,13 +1,17 @@
 .locationList {
     background-color: mediumaquamarine;
+    background-image: url("https://pixabay.com/get/54e7d4474c55a914f6da8c7dda213f76133edded4e507440742f7fd49f4dc4_1280.jpg");
 }
 
 .location {
     background-color: mediumseagreen;
+    padding: .5rem;
+    margin: .5rem;
+    width: 20%;
+    border-radius: 3px;
 }
 
 
 .location__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 95%;
 }

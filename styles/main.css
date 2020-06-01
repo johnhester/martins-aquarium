@@ -24,3 +24,9 @@
 .underTheBanner__right {
     flex: 1;
 }
+
+.dimensions {
+    margin: .2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
