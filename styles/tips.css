@@ -1,8 +1,12 @@
-.tipList {
+.tipList {   
+    background-image: url("https://cdn.wallpapersafari.com/53/4/y5Qug6.jpg");
     background-color: dodgerblue;
     height: 100%;
 }
 
 .tip {
-    background-color: royalblue;
+    background-color: lightskyblue;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 3px;
 }

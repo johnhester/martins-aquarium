@@ -4,7 +4,9 @@
 @import "quotes.css";
 @import "banner.css";
 
-
+body {
+    background-color:oldlace;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -23,4 +25,10 @@
 
 .underTheBanner__right {
     flex: 1;
+}
+
+.dimensions {
+    margin: .2rem;
+    border-radius: 5px;
+    border: 1px solid black;
 }
