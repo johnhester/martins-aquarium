@@ -6,6 +6,8 @@
 
 body {
     background-color:oldlace;
+    background-image: url('https://pixabay.com/get/54e5d3464f55af14f6d1867dda213f76133edded4e507440742f7fd29e45c5_1920.jpg');
+
 }
 .container {
     display: flex;
