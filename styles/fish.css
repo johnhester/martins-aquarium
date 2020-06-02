@@ -4,6 +4,7 @@
     background-image:url('https://pixabay.com/get/54e3dd475753a50bf7c58d75cf2e367d1d22dfe05a50714d742e7bd3_1920.jpg');
     flex-flow: row wrap;
     flex: 2;
+    justify-content: space-around;
 }
 
 .fish {
@@ -17,7 +18,7 @@
 
 
 .fish__picture {
-    max-width: 95%;
+    max-width: 100%;
     max-height: auto;
 }
 
