@@ -2,6 +2,7 @@
     display: flex;
     background-color: mediumorchid;
     background-image:url('https://pixabay.com/get/54e3dd475753a50bf7c58d75cf2e367d1d22dfe05a50714d742e7bd3_1920.jpg');
+    background-attachment: fixed;
     flex-flow: row wrap;
     flex: 2;
     justify-content: space-around;
@@ -9,7 +10,7 @@
 }
 
 .fish {
-    background-color: rgb(67, 30, 136);
+    background-color: lightcoral;
     padding: .5rem;
     margin: .5rem;
     width: 20%;
@@ -24,6 +25,9 @@
 }
 
 .fish__details {
-    background-color: mediumorchid;
     border-radius: 3px;
+}
+
+.fish__header {
+    text-size-adjust: 2rem;
 }

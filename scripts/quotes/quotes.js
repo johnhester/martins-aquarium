@@ -1,6 +1,6 @@
 const quoteConverter = (quoteObject) => {
     const quoteHTMLRepresentation = `
-    <section class="quote">
+    <section class="quote sectionText">
         "${quoteObject.quote}"
             - ${quoteObject.source}
     </section>
