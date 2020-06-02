@@ -1,6 +1,6 @@
 .quoteList {
     background-color: lightyellow;
-    background-image: url('https://pixabay.com/get/52e9dd4b435aa914f6d1867dda213f76133edded4e507440742e79dc914ac7_1920.jpg');
+    background-image: url('../images/backgroundImages/book.jpg');
     background-attachment: fixed;
     display: flex;
     flex-flow: wrap;
