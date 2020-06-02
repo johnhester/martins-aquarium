@@ -2,6 +2,7 @@
     display: flex;
     background-color: darkgoldenrod;
     height: 5rem;
+    justify-content: flex-start;
     
 }
 
@@ -11,5 +12,5 @@
 }
 
 .banner__title {
-    font-family: 'East Sea Dokdo', cursive;
+    
 }
