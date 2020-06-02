@@ -1,7 +1,10 @@
 .banner {
     display: flex;
     background-color: darkgoldenrod;
+    background-image: url('https://pixabay.com/get/5ee4d040494fad00f5d89974cf20317f1637c3e45658704877277fd595_1920.jpg');
+    background-attachment: fixed;
     height: 5rem;
+    justify-content: flex-start;
     
 }
 
@@ -11,5 +14,5 @@
 }
 
 .banner__title {
-    font-family: 'East Sea Dokdo', cursive;
+    
 }

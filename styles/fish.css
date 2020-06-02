@@ -1,12 +1,13 @@
 .fishList {
     display: flex;
     background-color: mediumorchid;
-    background-image:url('https://pixabay.com/get/54e3dd475753a50bf7c58d75cf2e367d1d22dfe05a50714d742e7bd3_1920.jpg');
+    background-image:url('../images/backgroundImages/oceanWater.jpg');
     background-attachment: fixed;
     flex-flow: row wrap;
     flex: 2;
     justify-content: space-around;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .fish {
@@ -22,12 +23,9 @@
 .fish__picture {
     max-width: 100%;
     max-height: auto;
+    border-radius: 3px;
 }
 
 .fish__details {
     border-radius: 3px;
-}
-
-.fish__header {
-    text-size-adjust: 2rem;
 }
