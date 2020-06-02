@@ -16,7 +16,7 @@
     width: 20%;
     border-radius: 3px;
     border: 1px solid darkgoldenrod;
-    justify-content: space-evenly;    
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -36,5 +36,5 @@
 }
 
 .quote__text {
-    flex: 2;
+    flex: 1;
 }
