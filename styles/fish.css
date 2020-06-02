@@ -22,12 +22,9 @@
 .fish__picture {
     max-width: 100%;
     max-height: auto;
+    border-radius: 3px;
 }
 
 .fish__details {
     border-radius: 3px;
-}
-
-.fish__header {
-    text-size-adjust: 2rem;
 }
