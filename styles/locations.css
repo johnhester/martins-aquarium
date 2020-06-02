@@ -1,8 +1,10 @@
 .locationList {
     background-color: mediumaquamarine;
     background-image: url("https://pixabay.com/get/54e7d4474c55a914f6da8c7dda213f76133edded4e507440742f7fd49f4dc4_1280.jpg");
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .location {

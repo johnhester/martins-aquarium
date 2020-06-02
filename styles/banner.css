@@ -2,9 +2,14 @@
     display: flex;
     background-color: darkgoldenrod;
     height: 5rem;
+    
 }
 
 .banner__logo {
     max-height: 95%;
     margin: .1rem .5rem;
+}
+
+.banner__title {
+    font-family: 'East Sea Dokdo', cursive;
 }
