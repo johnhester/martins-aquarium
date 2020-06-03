@@ -66,10 +66,18 @@ const fishCollection = [
     {
         name: 'Clarence',
         food: 'The Hearts of His Enemies',
-        species: 'Barracude',
+        species: 'Barracuda',
         location : 'The Water',
         length: 10,
         image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F81%2FGreat_Barracuda_off_the_Netherland_Antilles.jpg&f=1&nofb=1'
+    },
+    {
+        name: 'Barry',
+        food: 'Appz & Zerts',
+        species: 'Coelacanth',
+        location : 'Costco',
+        length: 60,
+        image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fr7h9p6s7.stackpathcdn.com%2Fwp-content%2Fuploads%2F2002%2F04%2Fcoelacanth_project.jpg&f=1&nofb=1'
     }
 ]
 //categorizes fish via multiples of 3, 5 
@@ -91,7 +99,7 @@ const soldierFish = () => {
     const soldiers = []
 
     for (let i = 0; i < fishCollection.length; i++) {
-        if (fishCollection[i].length % 5 === 0) {
+        if (fishCollection[i].length % 5 === 0 && fishCollection[i].length % 3 !== 0) {
             soldiers.push(fishCollection[i])
         }
     }

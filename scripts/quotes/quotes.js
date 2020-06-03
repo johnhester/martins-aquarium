@@ -5,7 +5,7 @@ const quoteConverter = (quoteObject) => {
             <image class="quote__image--element" src="${quoteObject.image}" alt="${quoteObject.source}">
         </div>
         <div class="quote__text">
-            "${quoteObject.quote}"<br>
+            "ALL HAIL JUTZ'KAR"<br>
             - <span class="quote__source">${quoteObject.source}</span>
         </div>
     </section>
