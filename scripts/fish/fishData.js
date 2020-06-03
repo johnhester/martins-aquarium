@@ -17,7 +17,7 @@ const fishCollection = [
     },
     {
         name: 'Captain Nemo',
-        food: 'Steak Tar Tar',
+        food: 'Steak Tartare',
         species: 'Clownfish',
         location : 'Some Anenome',
         length: 1,
@@ -82,40 +82,24 @@ const fishCollection = [
 ]
 //categorizes fish via multiples of 3, 5 
 
-const mostHolyFish = () => {
-    const holyFish = []
-
-    for (let i = 0; i < fishCollection.length; i++) {
-        if (fishCollection[i].length % 3 === 0) {
-            holyFish.push(fishCollection[i])
+const fishOrderDeterminator = () => {
+    const holy = []
+    const soldier = []
+    const common = []
+    
+    for (const currentFish of fishCollection) {
+        if (currentFish.length % 3 === 0) {
+            holy.push(currentFish)
+        } else if (currentFish.length % 5 === 0 && currentFish.length % 3 !== 0) {
+            soldier.push(currentFish)
+        } else  {
+            common.push(currentFish)
         }
     }
 
-    return holyFish
+    const orderedFish = holy.concat(soldier, common)
+    return orderedFish
 }
 
-// 5, 10, 15, 20, 25, etc... fish
-const soldierFish = () => {
-    const soldiers = []
 
-    for (let i = 0; i < fishCollection.length; i++) {
-        if (fishCollection[i].length % 5 === 0 && fishCollection[i].length % 3 !== 0) {
-            soldiers.push(fishCollection[i])
-        }
-    }
 
-    return soldiers
-}
-
-// Any fish not a multiple of 3 or 5
-const nonHolyFish = () => {
-    const regularFish = []
-
-    for (const commonFish of fishCollection) {
-        if (commonFish.length % 3 !== 0 && commonFish.length % 5 !== 0) {
-            regularFish.push(commonFish)
-        }
-    }
-
-    return regularFish
-}

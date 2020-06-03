@@ -12,7 +12,6 @@ const fishConverter = (fishObject) => {
                 <ul>
                     <li>Species: ${fishObject.species}</li>
                     <li>Length: ${fishObject.length}</li>
-                    <li>Name: ${fishObject.name}</li>
                     <li>Location: ${fishObject.location}</li>
                     <li>Food: ${fishObject.food}</li>
                 </ul>
@@ -24,8 +23,8 @@ const fishConverter = (fishObject) => {
     } else if (fishObject.length % 5 === 0) {
         const fishHTMLRepresentation = `
         <section class="fish beefy">
-            <h3 class="sectionTitle">${fishObject.name}</h3>
-            <h3 class="sectionTitle">Beef Skwad 💪</h3>
+            <h3 class="sectionTitle beefy__deets">${fishObject.name}</h3>
+            <h3 class="sectionTitle beefy__deets">Beef Skwad 💪</h3>
             <div class="">
                 <img class="fish__picture" src="${fishObject.image}"
                     alt="${fishObject.name} the ${fishObject.species}" />
@@ -34,7 +33,6 @@ const fishConverter = (fishObject) => {
                 <ul class="beefy__deets">
                     <li>Species: ${fishObject.species}</li>
                     <li>Length: ${fishObject.length}</li>
-                    <li>Name: ${fishObject.name}</li>
                     <li>Location: ${fishObject.location}</li>
                     <li>Food: ${fishObject.food}</li>
                 </ul>
@@ -56,7 +54,6 @@ const fishConverter = (fishObject) => {
                 <ul>
                     <li>Species: ${fishObject.species}</li>
                     <li>Length: ${fishObject.length}</li>
-                    <li>Name: ${fishObject.name}</li>
                     <li>Location: ${fishObject.location}</li>
                     <li>Food: ${fishObject.food}</li>
                 </ul>

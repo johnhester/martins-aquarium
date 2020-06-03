@@ -38,7 +38,7 @@
 }
 
 .beefy {
-    background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftheworldsstrongestman.com%2Fwp-content%2Fuploads%2F2014%2F07%2FJon-Pall-Sigmarsson.jpg&f=1&nofb=1');
+    background: url('https://media.giphy.com/media/YvdkqmpU36Vws/giphy.gif');
     background-position: center;
     
     background-size: 50rem auto;
@@ -47,13 +47,8 @@
 
 .beefy__deets {
     background-color: whitesmoke; 
+    opacity: .8;
+    border-radius: 3px;
  }
 
-.beefy__deets::after {
-    opacity: .8;
-}
-
-.beefy__deets--child {
-    color: black;
-}
 
