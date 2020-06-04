@@ -17,7 +17,7 @@ const fishCollection = [
     },
     {
         name: 'Captain Nemo',
-        food: 'Steak Tar Tar',
+        food: 'Steak Tartare',
         species: 'Clownfish',
         location : 'Some Anenome',
         length: 1,
@@ -36,7 +36,7 @@ const fishCollection = [
         food: 'Dirt',
         species: 'Flounder',
         location : 'Probably Below You',
-        length: 11,
+        length: 12,
         image: 'http://news.nationalgeographic.com/content/dam/news/2016/08/12/WAQflounders/01WAQflounders.ngsversion.1470952297404.jpg'
     }, 
     {
@@ -44,7 +44,7 @@ const fishCollection = [
         food: 'Grey Poupon',
         species: 'Emporer Angelfish',
         location : 'Exclusive Fish Nightclubs',
-        length: 8,
+        length: 9,
         image: 'http://www.caribbean-charter-flights.com/wp-content/uploads/2221.jpg'
     },
     {
@@ -60,15 +60,46 @@ const fishCollection = [
         food: 'Stress',
         species: 'Doctorfish',
         location : 'His Malpractice Lawyer\'s Office',
-        length: 6,
+        length: 5,
         image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F63%2FDoctorfish%252C_Acanthurus_chirurgus.jpg&f=1&nofb=1'
     },
     {
         name: 'Clarence',
         food: 'The Hearts of His Enemies',
-        species: 'Barracude',
+        species: 'Barracuda',
         location : 'The Water',
         length: 10,
-        image: 'https://pixabay.com/get/55e2dc464c53b108feda8460ce203f78143cd6f852547848742e7fd79f4a_1920.jpg'
+        image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F81%2FGreat_Barracuda_off_the_Netherland_Antilles.jpg&f=1&nofb=1'
+    },
+    {
+        name: 'Barry',
+        food: 'Appz & Zerts',
+        species: 'Coelacanth',
+        location : 'Costco',
+        length: 60,
+        image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fr7h9p6s7.stackpathcdn.com%2Fwp-content%2Fuploads%2F2002%2F04%2Fcoelacanth_project.jpg&f=1&nofb=1'
     }
 ]
+//categorizes fish via multiples of 3, 5 
+
+const fishOrderDeterminator = () => {
+    const holy = []
+    const soldier = []
+    const common = []
+    
+    for (const currentFish of fishCollection) {
+        if (currentFish.length % 3 === 0) {
+            holy.push(currentFish)
+        } else if (currentFish.length % 5 === 0 && currentFish.length % 3 !== 0) {
+            soldier.push(currentFish)
+        } else  {
+            common.push(currentFish)
+        }
+    }
+
+    const orderedFish = holy.concat(soldier, common)
+    return orderedFish
+}
+
+
+

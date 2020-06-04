@@ -29,3 +29,26 @@
 .fish__details {
     border-radius: 3px;
 }
+
+.holy {
+    background-image: url('https://media1.giphy.com/media/xUA7bdb438bTcgY0h2/giphy.gif?cid=ecf05e47b38f0b0ea1bab3476b6ef235255e3959dfa74c68&rid=giphy.gif');
+    background-position: center;
+   
+    font-weight: bolder;
+}
+
+.beefy {
+    background: url('https://media.giphy.com/media/YvdkqmpU36Vws/giphy.gif');
+    background-position: center;
+    
+    background-size: 50rem auto;
+    font-weight: bolder;
+}
+
+.beefy__deets {
+    background-color: whitesmoke; 
+    opacity: .8;
+    border-radius: 3px;
+ }
+
+
