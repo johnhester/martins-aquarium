@@ -1,6 +1,5 @@
 let fishCollection = []
 
-
 const getFishData = () => {
     return fetch("http://localhost:8088/fish").then(
         (httpResponse) => {
@@ -16,41 +15,25 @@ const getFishData = () => {
 }
 
 
-const mostHolyFish = () => {
-    const holyFish = []
+const fishOrderDeterminator = () => {
+    const holy =[]
+    const soldier = []
+    const plebians =[]
 
     for (const fish of fishCollection) {
         if (fish.length % 3 === 0) {
-            holyFish.push(fish)
+            holy.push(fish)
+        } else if (fish.length % 5 === 0 && fish.length % 3 !== 0) {
+            soldier.push(fish)
+        } else {
+            plebians.push(fish)
         }
     }
-
-    return holyFish
+ 
+    return holy.concat(soldier, plebians)
 }
 
-const soldierFish = () => {
-    const soliderFishArray = []
 
-    for (const fish of fishCollection) {
-        if (fish.length % 5 === 0 && fish.length % 3 !== 0) {
-            soliderFishArray.push(fish)
-        }
-    }
-
-    return soliderFishArray
-}
-
-const fishPlebs = () => {
-    const plebs = []
-
-    for (const fish of fishCollection) {
-        if (fish.length % 5 !== 0 && fish.length % 3 !== 0) {
-            plebs.push(fish)
-        }
-    }
-
-    return plebs
-}
 
 
 
