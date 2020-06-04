@@ -1,8 +1,15 @@
-quoteList()
-locationList()
-tipList()
+// quoteList()
+// locationList()
+// tipList()
 
-getFishData().then( fishList() )
+// getFishData().then(
+//      () => { fishList() }
+// )
+
+//shorthand 
+getFishData().then(fishList)
+getLocationData().then(locationList)
+getTipData().then(tipList)
+getQuoteData().then(quoteList)
 
 
-console.log("outside", fishCollection)

@@ -1,8 +1,11 @@
 let fishCollection = []
 
+
+
 const getFishData = () => {
     return fetch("http://localhost:8088/fish").then(
         (httpResponse) => {
+            
             return httpResponse.json()
         }
     )
@@ -16,7 +19,7 @@ const getFishData = () => {
 
 
 const fishOrderDeterminator = () => {
-    const holy =[]
+    const holy = []
     const soldier = []
     const plebians =[]
 
@@ -29,8 +32,9 @@ const fishOrderDeterminator = () => {
             plebians.push(fish)
         }
     }
- 
-    return holy.concat(soldier, plebians)
+
+    const orderedFish = holy.concat(soldier, plebians)
+    return orderedFish
 }
 
 
