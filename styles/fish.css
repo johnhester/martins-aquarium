@@ -1,25 +1,54 @@
 .fishList {
-    background-color: lavender;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
+    background-color: mediumorchid;
+    background-image:url('../images/backgroundImages/oceanWater.jpg');
+    background-attachment: fixed;
+    flex-flow: row wrap;
+    flex: 2;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .fish {
     background-color: lightcoral;
-    margin-bottom: 1.25rem;
-}
-
-.header--fish {
-    margin: 0;
-    padding: 0;
-    background-color: lavender;
+    padding: .5rem;
+    margin: .5rem;
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid darkorchid;
 }
 
 
 .fish__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 3px;
 }
+
+.fish__details {
+    border-radius: 3px;
+}
+
+.holy {
+    background-image: url('https://media1.giphy.com/media/xUA7bdb438bTcgY0h2/giphy.gif?cid=ecf05e47b38f0b0ea1bab3476b6ef235255e3959dfa74c68&rid=giphy.gif');
+    background-position: center;
+   
+    font-weight: bolder;
+}
+
+.beefy {
+    background: url('https://media.giphy.com/media/YvdkqmpU36Vws/giphy.gif');
+    background-position: center;
+    
+    background-size: 50rem auto;
+    font-weight: bolder;
+}
+
+.beefy__deets {
+    background-color: whitesmoke; 
+    opacity: .8;
+    border-radius: 3px;
+ }
+
+

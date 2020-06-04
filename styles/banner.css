@@ -1,18 +1,18 @@
 .banner {
-    background-color: #bee;
     display: flex;
-    flex-direction: row;
-    margin-bottom: 1rem;
+    background-color: darkgoldenrod;
+    background-image: url('https://pixabay.com/get/5ee4d040494fad00f5d89974cf20317f1637c3e45658704877277fd595_1920.jpg');
+    background-attachment: fixed;
+    height: 5rem;
+    justify-content: flex-start;
+    
 }
 
-.logoImg {
-    max-width: 7rem;
-    max-height: 7rem;
+.banner__logo {
+    max-height: 95%;
+    margin: .1rem .5rem;
 }
 
-.banner__title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 4rem;
-}
+/* .banner__title {
+    
+} */

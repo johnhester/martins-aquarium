@@ -1,8 +1,7 @@
-.tipList {
-    background-color: #abcdef;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.tipList {   
+    background-image: url("../images/backgroundImages/sunset.jpg");
+    background-attachment: fixed;
+    background-color: dodgerblue;
     height: 100%;
     margin-left: 1rem;
     align-items: flex-start;
@@ -16,8 +15,8 @@
 }
 
 .tip {
-    background-color: #42c4d3;
-    margin: 0.5rem;
-    flex-basis: 10%;
-    padding: 0.75rem;
+    background-color: lightskyblue;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 3px;
 }

@@ -1,50 +1,54 @@
-/*
-Responsible for generating a list of fish HTML
-representations, and putting in the browser
-*/
-const fishList = () => {
-    displayTheHolyOnes()
-    displaySoldier()
-    displayPlebs()
-}
 
-const displayTheHolyOnes = () => {
-    // Get holy fish array
-    const holyFish = mostHolyFish()
+// Responsible for generating a list of fish HTML representations, and putting it in the browser 
 
-    // Iterate the array of holy fish
-    for (const holyFishObject of holyFish) {
-        const holyFishHTMLRepresentation = fishConverter(holyFishObject)
+//least concise
 
-        const fishArticleElement = document.querySelector(".fishList")
-        fishArticleElement.innerHTML += holyFishHTMLRepresentation
+// Function to show holy fish in the browser
+// const showHolyFish = () => {
+//     const holyObjArray = mostHolyFish()    
+
+//     for (const fishObject of holyObjArray) {
+//         const holyHTMLRepresentation = fishConverter(fishObject)
+//         const holyArticle = document.querySelector(".fishList")
+//         holyArticle.innerHTML += holyHTMLRepresentation
+//     }
+// }
+
+// // Function to show soldier fish in the browser
+// const showSoldierFish = () => {
+//     const beefyObjArray = soldierFish()
+
+//     for (const fishObject of beefyObjArray) {
+//         const beefyHTMLRepresentation = fishConverter(fishObject)
+//         const beefyArticle = document.querySelector(".fishList")
+//         beefyArticle.innerHTML += beefyHTMLRepresentation
+//     }
+// }
+
+// // Function to show common fish in the browser
+// const showCommonFish = () => {
+//     const commonObjArray = nonHolyFish();
+    
+//     for (const fishObject of commonObjArray) {
+//         const commonHTMLRepresentation = fishConverter(fishObject)
+//         const commonArticle = document.querySelector(".fishList")
+//         commonArticle.innerHTML += commonHTMLRepresentation
+//     }
+// }
+
+
+//more concise
+const showFish = (fish) => {
+    for (const currentFish of fish) {
+        const fishHTML = fishConverter(currentFish)
+        document.querySelector(".fishList").innerHTML += fishHTML
     }
 }
 
-const displaySoldier = () => {
-    // Get soldier fish array
-    const soldierFishArray = soldierFish()
+//most concise
+// const showFish = fish => fish.forEach(fishObj => document.querySelector('.fishList').innerHTML += fishConverter(fishObj))
 
-    // Iterate the array of soldier fish
-    for (const soldierFishObject of soldierFishArray) {
-        const soldierFishHTMLRepresentation = fishConverter(soldierFishObject)
 
-        const fishArticleElement = document.querySelector(".fishList")
-        fishArticleElement.innerHTML += soldierFishHTMLRepresentation
-    }
+const fishList = () => {  
+    showFish(fishOrderDeterminator());
 }
-
-
-const displayPlebs = () => {
-    // Get plebs fish array
-    const plebsFishArray = fishPlebs()
-
-    // Iterate the array of plebs fish
-    for (const plebsFishObject of plebsFishArray) {
-        const plebsFishHTMLRepresentation = fishConverter(plebsFishObject)
-
-        const fishArticleElement = document.querySelector(".fishList")
-        fishArticleElement.innerHTML += plebsFishHTMLRepresentation
-    }
-}
-

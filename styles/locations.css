@@ -1,15 +1,18 @@
 .locationList {
-    background-color: #BADCA7;
+    background-color: mediumaquamarine;
+    background-image: url('../images/backgroundImages/map.jpg');
+    background-attachment: fixed;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .location {
-    background-color: mediumseagreen;
-    margin-bottom: 1.25rem;
-    flex-basis: 20%;
+    background-color: mediumaquamarine;
+    padding: .5rem;
+    margin: .5rem;
+    width: 20%;
+    border-radius: 3px;
 }
 
 .header--locations {
@@ -23,7 +26,5 @@
 }
 
 .location__picture {
-    width: 100%;
-    height: 15rem;
-    max-height: 15rem;
+    max-width: 95%;
 }

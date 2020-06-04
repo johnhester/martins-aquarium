@@ -1,19 +1,40 @@
 .quoteList {
     background-color: lightyellow;
+    background-image: url('../images/backgroundImages/book.jpg');
+    background-attachment: fixed;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
+    flex-flow: wrap;
+    justify-content: space-around;
 }
 
 .quote {
-    border: 1px dotted darkgoldenrod;
-    flex-basis: 20%;
-    padding: 0.75rem;
+    display: flex;
+    flex-flow: column;
+    background-color: palegoldenrod;
+    padding: 1rem;
+    margin: .5rem;
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid darkgoldenrod;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.header--quotes {
-    margin: 0;
-    padding: 0;
-    background-color: lightyellow;
+.quote__source {
+    font-weight: bold;
+}
+
+.quote__image {
+    flex: 1;
+}
+
+.quote__image--element {
+    max-height: 10rem;
+    width: auto;
+    margin: .2rem;
+    border-radius: 3px;
+}
+
+.quote__text {
+    flex: 1;
 }
