@@ -50,8 +50,5 @@ const showFish = (fish) => {
 
 
 const fishList = () => {  
-    // showFish(mostHolyFish());
-    // showFish(soldierFish());
-    // showFish(nonHolyFish());
     showFish(fishOrderDeterminator());
 }
