@@ -11,3 +11,21 @@ const quoteList = () => {
     }      
 
 }
+
+//quote visibilty toggle
+
+const quoteVisibilityButton = document.querySelector(".toggleQuotes")
+
+
+// slow transition
+// quoteVisibilityButton.addEventListener("click", clickEvent => {
+//     document.querySelector(".bigQuoteBox").style.transition = "all .5s ease"
+// })
+
+//applies hidden class
+quoteVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".bigQuoteBox").style.transition = "all .5s ease"
+    document.querySelector(".bigQuoteBox").classList.toggle("hidden")
+    
+})
+

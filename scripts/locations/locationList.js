@@ -11,3 +11,13 @@ const locationList = () => {
     }      
 
 }
+
+
+// locationList toggle 
+
+const locationVisibilityButton = document.querySelector(".toggleLocations")
+
+locationVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".bigLocationBox").classList.toggle("hidden")
+})
+

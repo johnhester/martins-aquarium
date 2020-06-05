@@ -7,3 +7,9 @@ const tipList = () => {
     }
 
 }
+
+const tipVisibilityButton = document.querySelector(".toggleTips")
+
+tipVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".bigTipBox").classList.toggle("hidden")
+})

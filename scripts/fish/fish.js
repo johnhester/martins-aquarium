@@ -1,7 +1,7 @@
 const fishConverter = (fishObject) => {
     if(fishObject.length % 3 === 0) {
         const fishHTMLRepresentation = `
-        <section class="fish holy">
+        <section class="fish holy getBig">
             <h3 class="sectionTitle">${fishObject.name}</h3>
             <h3 class="sectionTitle">V Holy 🙇‍♀️😇🙇‍♂️</h3>
             <div class="">
@@ -22,7 +22,7 @@ const fishConverter = (fishObject) => {
 
     } else if (fishObject.length % 5 === 0) {
         const fishHTMLRepresentation = `
-        <section class="fish beefy">
+        <section class="fish beefy getBig">
             <h3 class="sectionTitle beefy__deets">${fishObject.name}</h3>
             <h3 class="sectionTitle beefy__deets">Beef Skwad 💪</h3>
             <div class="">
@@ -43,7 +43,7 @@ const fishConverter = (fishObject) => {
 
     } else {
         const fishHTMLRepresentation = `
-        <section class="fish">
+        <section class="fish getBig">
             <h3 class="sectionTitle">${fishObject.name}</h3>
             <h3 class="sectionTitle">Pleb 💩</h3>
             <div class="">
