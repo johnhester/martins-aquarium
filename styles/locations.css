@@ -15,6 +15,10 @@
     border-radius: 3px;
 }
 
+.location:hover {
+    transform: scale(1.2);
+}
+
 .header--locations {
     margin: 0;
     padding: 0;

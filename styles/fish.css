@@ -19,6 +19,11 @@
     border: 1px solid darkorchid;
 }
 
+.fish:hover {
+    box-shadow: 0px 8px 2px -6px black;
+    transform: scale(1.2)
+}
+
 
 .fish__picture {
     max-width: 100%;
@@ -49,6 +54,12 @@
     background-color: whitesmoke; 
     opacity: .8;
     border-radius: 3px;
+ }
+
+ .bigFishBox {
+     display: flex;
+     flex-flow: column;
+     justify-content: space-evenly;
  }
 
 

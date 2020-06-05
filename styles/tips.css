@@ -15,8 +15,13 @@
 }
 
 .tip {
-    background-color: lightskyblue;
-    padding: 1rem;
+    background-color: mediumaquamarine;
+    padding: .2rem;
     margin: .5rem;
     border-radius: 3px;
+    border: 1px solid black;
+}
+
+.tip:hover {
+    transform: scale(1.5);
 }

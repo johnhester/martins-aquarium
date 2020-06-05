@@ -1,6 +1,6 @@
 const quoteConverter = (quoteObject) => {
     const quoteHTMLRepresentation = `
-    <section class="quote sectionText">
+    <section class="quote getBig sectionText">
         <div class="quote__image">
             <image class="quote__image--element" src="${quoteObject.image}" alt="${quoteObject.source}">
         </div>

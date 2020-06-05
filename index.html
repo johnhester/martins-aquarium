@@ -18,26 +18,52 @@
                 <img class="banner__logo" src="https://duckduckgo.com/i/d5e37ade.png" alt="Martin's a Pisces!">
             </div>
             <div><h1 class="banner__title sectionTitle">Martin's Aquarium; Courtesy of Jutz'Kar</h1></div>
+        </div>
 
+        <div class="toggleBox">
+            <button class="toggleTips toggleButton">Toggle Tips</button>
+            <button class="toggleQuotes toggleButton">Toggle Quotes</button>
+            <button class="toggleFish toggleButton">Toggle Fish</button>
+            <button class="toggleLocations toggleButton">Toggle Locations</button>
         </div>
 
         <div class="underTheBanner">
 
             <div class="underTheBanner__left">
-                <article class="quoteList dimensions">
-                </article>
+                <div class="bigQuoteBox"> 
+                    <h2 class="sectionTitle">Words of Wisdom:</h2>
+                    <article class="quoteList dimensions">
+                    </article>
+                </div>
 
-                <article class="fishList dimensions">
-                </article>
-
-                <article class="locationList dimensions">
-                </article>
+                <div class="bigFishBox">
+                    <h2 class="sectionTitle">Disciples of Jutz'kar:</h2>
+                    <section class="fishSelector">
+                        <select class="typeChoice">
+                            <option value="all">Show All Fish</option>
+                            <option value="holy">Holy Fish</option>
+                            <option value="soldier">Soldier Fish</option>
+                            <option value="plebs">Commoners</option>
+                    </select>                
+                        
+                    </section>                
+                    <article class="fishList dimensions">
+                    </article>
+                </div>
+                <div class="bigLocationBox">
+                    <h2 class="sectionTitle">Destinations:</h2>
+                    <article class="locationList dimensions">
+                    </article>
+                </div>
             </div>
 
             <div class="underTheBanner__right">
-                <article class="tipList dimensions">
-                    
-                </article>
+                <div class="bigTipBox">
+                    <h2 class="sectionTitle">Tips:</h2>
+                    <article class="tipList dimensions">
+                        
+                    </article>
+                </div>  
             </div>
         </div>
 

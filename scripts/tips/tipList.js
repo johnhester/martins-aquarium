@@ -1,5 +1,5 @@
 const tipList = () => {
-
+    
     for (currentTipObject of tipCollection) {
         const tipHTML = tipConverter(currentTipObject);
         const tipArticleElement = document.querySelector(".tipList");
@@ -7,3 +7,9 @@ const tipList = () => {
     }
 
 }
+
+const tipVisibilityButton = document.querySelector(".toggleTips")
+
+tipVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".bigTipBox").classList.toggle("hidden")
+})

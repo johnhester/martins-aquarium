@@ -1,5 +1,5 @@
 const locationConverter = (locationObject) => {
-    const locationHTMLRepresentation = `<section class="location">
+    const locationHTMLRepresentation = `<section class="location getBig">
         <h3 class="location__header sectionTitle">${locationObject.name}</h4>
         <div class="">
             <img class="location__picture" src="${locationObject.image}"

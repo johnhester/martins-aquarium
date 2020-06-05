@@ -7,6 +7,11 @@
     justify-content: space-around;
 }
 
+.bigQuoteBox {
+    display: flex;
+    flex-flow: column;
+}
+
 .quote {
     display: flex;
     flex-flow: column;
@@ -20,6 +25,10 @@
     align-items: center;
 }
 
+.quote:hover {
+    transform: scale(1.2)
+}
+
 .quote__source {
     font-weight: bold;
 }
@@ -29,8 +38,9 @@
 }
 
 .quote__image--element {
-    max-height: 10rem;
+    max-height: 8rem;
     width: auto;
+    padding: .2rem;
     margin: .2rem;
     border-radius: 3px;
 }

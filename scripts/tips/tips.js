@@ -1,6 +1,6 @@
 const tipConverter = (tipObject) => {
     const tipHTMLRepresentation = `
-    <section class="tip sectionText">${tipObject.tip}</section>
+    <section class="tip sectionText getBig">${tipObject.tip}</section>
     `
     return tipHTMLRepresentation
 }

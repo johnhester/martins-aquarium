@@ -1,103 +1,226 @@
 {
-    "fish": [
-        {
-            "species": "Trigger Fish",
-            "length": 12,
-            "location": "Bay of Bengal",
-            "picture": "./images/triggerfish.jpg",
-            "food": "Baby squid",
-            "name": "Bubbles"
-        },
-        {
-            "species": "Parrot Fish",
-            "length": 8,
-            "location": "Sea of Google",
-            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
-            "food": "Popcorn",
-            "name": "Angus"
-        },
-        {
-            "species": "Swordfish",
-            "length": 323,
-            "location": "Atlantic Ocean",
-            "picture": "./images/chester.jpeg",
-            "food": "Herring",
-            "name": "Chester"
-        },
-        {
-            "species": "Angel Fish",
-            "length": 8,
-            "location": "Pacific Ocean",
-            "picture": "./images/angelfish.jpg",
-            "food": "Plankton",
-            "name": "Michael"
-        },
-        {
-            "species": "Elegant Corydoras",
-            "length": 3,
-            "location": "Caribbean Sea",
-            "food": "Algae",
-            "name": "Sweet",
-            "picture": "./images/pink.jpg"
-        },
-        {
-            "species": "Orange Roughy",
-            "length": 10,
-            "location": "Southern Ocean",
-            "picture": "./images/roughy.jpeg",
-            "food": "Anchovies",
-            "name": "Michael"
-        },
-        {
-            "species": "Trigger Fish",
-            "length": 12,
-            "location": "Bay of Bengal",
-            "picture": "./images/triggerfish.jpg",
-            "food": "Baby squid",
-            "name": "Bubbles"
-        },
-        {
-            "species": "Parrot Fish",
-            "length": 8,
-            "location": "Sea of Google",
-            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
-            "food": "Popcorn",
-            "name": "Angus"
-        },
-        {
-            "species": "Swordfish",
-            "length": 217,
-            "location": "Atlantic Ocean",
-            "picture": "./images/chester.jpeg",
-            "food": "Herring",
-            "name": "Chester"
-        },
-        {
-            "species": "Angel Fish",
-            "length": 8,
-            "location": "Pacific Ocean",
-            "picture": "./images/angelfish.jpg",
-            "food": "Plankton",
-            "name": "Michael"
-        },
-        {
-            "species": "Elegant Corydoras",
-            "length": 5,
-            "location": "Caribbean Sea",
-            "food": "Algae",
-            "name": "Sweet",
-            "picture": "./images/pink.jpg"
-        },
-        {
-            "species": "Orange Roughy",
-            "length": 20,
-            "location": "Southern Ocean",
-            "picture": "./images/roughy.jpeg",
-            "food": "Anchovies",
-            "name": "Michael"
-        }
-    ],
-    "locations": [],
-    "tips": [],
-    "quotes": []
+  "fish": [
+    {
+      "id": 1,
+      "name": "Angus",
+      "food": "Popcorn",
+      "species": "Parrot Fish",
+      "location": "Sea of Google",
+      "length": 8,
+      "image": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Manny",
+      "food": "Mike'n Ikes",
+      "species": "Lionfish",
+      "location": "Cayman Islands",
+      "length": 5,
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F27ml3ckbz243349t7nkxkpyo-wpengine.netdna-ssl.com%2Fwp-content%2Fuploads%2F2017%2F02%2FDollarphotoclub_72071085.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 3,
+      "name": "Captain Nemo",
+      "food": "Steak Tartare",
+      "species": "Clownfish",
+      "location": "Some Anenome",
+      "length": 1,
+      "image": "http://www.smashinglists.com/wp-content/uploads/2010/02/Oceans-Clownfish.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Calvin",
+      "food": "Kelp Shakes",
+      "species": "Cowfish",
+      "location": "Blue",
+      "length": 3,
+      "image": "https://gerolilleike.files.wordpress.com/2013/07/aviary-photo_130173361553213295.png"
+    },
+    {
+      "id": 5,
+      "name": "Frankie",
+      "food": "Dirt",
+      "species": "Flounder",
+      "location": "Probably Below You",
+      "length": 12,
+      "image": "http://news.nationalgeographic.com/content/dam/news/2016/08/12/WAQflounders/01WAQflounders.ngsversion.1470952297404.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jean Baptiste",
+      "food": "Grey Poupon",
+      "species": "Emporer Angelfish",
+      "location": "Exclusive Fish Nightclubs",
+      "length": 9,
+      "image": "http://www.caribbean-charter-flights.com/wp-content/uploads/2221.jpg"
+    },
+    {
+      "id": 7,
+      "name": "David",
+      "food": "Dijon Mustard",
+      "species": "Blue Tang",
+      "location": "Hanging out with Jean Baptiste",
+      "length": 8,
+      "image": "http://www.caribbean-charter-flights.com/wp-content/uploads/444.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Bronson",
+      "food": "Stress",
+      "species": "Doctorfish",
+      "location": "His Malpractice Lawyer's Office",
+      "length": 5,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F63%2FDoctorfish%252C_Acanthurus_chirurgus.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 9,
+      "name": "Clarence",
+      "food": "The Hearts of His Enemies",
+      "species": "Barracuda",
+      "location": "The Water",
+      "length": 10,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F81%2FGreat_Barracuda_off_the_Netherland_Antilles.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 10,
+      "name": "Barry",
+      "food": "Appz & Zerts",
+      "species": "Coelacanth",
+      "location": "Costco",
+      "length": 60,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fr7h9p6s7.stackpathcdn.com%2Fwp-content%2Fuploads%2F2002%2F04%2Fcoelacanth_project.jpg&f=1&nofb=1"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "image": "http://2.bp.blogspot.com/-012SN340T-o/T4ggboIaovI/AAAAAAAAB4U/XsFp-nc2dKU/s1600/jamaica+beach+wallpaper.jpg",
+      "name": "Jamaica",
+      "description": "Usually you go low to harvest fish, but in Jamaica they were all pretty high."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ytimg.com/vi/wBUz2RocJ8A/maxresdefault.jpg",
+      "name": "Grand Cayman",
+      "description": "The Cayman Islands are fantastic for finding fish and hiding money!"
+    },
+    {
+      "id": 3,
+      "image": "http://www.thetimenow.com/blog/wp-content/uploads/2016/11/Costa-Rica-Vacation-min.jpg",
+      "name": "Costa Rica",
+      "description": "Costa Rica has beatiful beaches in addition to both Carribbean and Pacific coastal access."
+    },
+    {
+      "id": 4,
+      "image": "https://www.fodors.com/wp-content/uploads/2019/06/BestBeachesinPuertoRico__HERO_shutterstock_419173447.jpg",
+      "name": "Puerto Rico",
+      "description": "Puerto Rico has it all! Fish, nightlife, fish, dancing, fish, delicious food, and most importantly: fish."
+    }
+  ],
+  "tips": [
+    {
+      "id": 1,
+      "tip": "Fish REALLY like water."
+    },
+    {
+      "id": 2,
+      "tip": "Feeding Note #11: Fish do NOT like sushi."
+    },
+    {
+      "id": 3,
+      "tip": "Perform regular water changes on your aquariums."
+    },
+    {
+      "id": 4,
+      "tip": "Fish can't walk out on you, unlike my ex-wife."
+    },
+    {
+      "id": 5,
+      "tip": "The salinity of a marine aquarium should be roughly between 28 to 36 ppt (1.020 to 1.026)."
+    },
+    {
+      "id": 6,
+      "tip": "All water that fish swim in is poop water."
+    },
+    {
+      "id": 7,
+      "tip": "Research your fish before purchasing."
+    },
+    {
+      "id": 8,
+      "tip": "When cooking chicken make sure the internal temperature reaches 165 degrees Farenheit."
+    },
+    {
+      "id": 9,
+      "tip": "Always test your water and monitor your parameters."
+    },
+    {
+      "id": 10,
+      "tip": "The 90s childrens show \"Legends of the Hidden Temple\" featured a team name'd the Blue Barracudas, showing that the producers were indeed famaliar with fish."
+    },
+    {
+      "id": 11,
+      "tip": "Avoid overfeeding your fish."
+    },
+    {
+      "id": 12,
+      "tip": "Martin is a long time fan of watersports."
+    },
+    {
+      "id": 13,
+      "tip": "Cyle your tank before adding fish."
+    },
+    {
+      "id": 13,
+      "tip": "The longhorn cowfish (Lactoria cornuta), also called the horned boxfish, is a species of boxfish from the family Ostraciidae, recognizable by its long horns that protrude from the front of its head, rather like those of a cow or bull."
+    },
+    {
+      "id": 14,
+      "tip": "When attempting to subdue a foe in a grappling contest, always rembember the adage \"Position over submission.\" It will serve you well."
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "All the sites had a navigation bar at the top. I'd like to have a navigation bar. Were you planning on having a navigation bar?",
+      "source": "Martin",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresizing.flixster.com%2F0IWclP12m5pozj3ZIkXP3PDjnYA%3D%2F2062x2201%2Fv1.cjs0OTMzNTtqOzE4MjcwOzEyMDA7MjA2MjsyMjAx&f=1&nofb=1"
+    },
+    {
+      "id": 2,
+      "quote": "There is a fine line betwen fishing and just standing on the shore like an idiot.",
+      "source": "Steven Wright",
+      "image": "https://images.gr-assets.com/authors/1347482080p5/181771.jpg"
+    },
+    {
+      "id": 3,
+      "quote": "I'm never going to financially recover from this.",
+      "source": "Joe Exotic",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fwl-tiger-king-joe-exotic_69987.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 4,
+      "quote": "CRIKEY! ME CHEST!",
+      "source": "Steve Irwin",
+      "image": "https://images.gr-assets.com/authors/1310751167p5/311848.jpg"
+    },
+    {
+      "id": 5,
+      "quote": "As no man is born an artist, so no man is born an angler.",
+      "source": "Izaak Walton",
+      "image": "https://images.gr-assets.com/authors/1408707843p5/8384103.jpg"
+    },
+    {
+      "id": 6,
+      "quote": "Did I mention the navigation bar?",
+      "source": "Martin",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresizing.flixster.com%2F0IWclP12m5pozj3ZIkXP3PDjnYA%3D%2F2062x2201%2Fv1.cjs0OTMzNTtqOzE4MjcwOzEyMDA7MjA2MjsyMjAx&f=1&nofb=1"
+    },
+    {
+      "id": 7,
+      "quote": "He can't have gone, he said \"Christ know he can't have gone. He's making a turn. Maybe he has been hooked before and her remembers something of it.\" The he felt the gentle touch on the line and he was happy.",
+      "source": "Ernest Hemingway",
+      "image": "https://images.gr-assets.com/authors/1574217836p5/1455.jpg"
+    }
+  ]
 }
